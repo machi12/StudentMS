@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/*公共css样式*/
+*{margin:0; padding:0;}
+.main{
+	/*border: 5px solid black;*/ 
+	font-size: 12px;
+	color: black; 
+	width: 960px;
+	margin:0 auto;/*这里让整体居中，上下为0，左右自动*/
+}
+
+ul{list-style: none;}
+.clear{clear:both;}
+a:link{color: #34AE99;}
+a:visited{color: #34AE99;}
+a:hover{color: red;}
+a:active{color: red;}
+a{text-decoration: none;}
+
+/*公共CSS样式*/
+
+
+.navigation{
+
+	background-color: #343F51;
+	line-height: 60px;
+	margin-bottom: 10px;
+	
+}
+.navigation span {
+	margin: 0 16px;
+	color:#FFFFFF;
+}
+.exit{
+	color:#FFFFFF;
+	float: right;
+	margin-bottom: 0;
+	margin-right:16px;
+}
+/*顶部信息栏的样式*/
+
+.button_menu{
+	background-color: #343F51;
+	border: none;
+	width:256px;
+	float:left;
+}
+.button_menu ul {
+	border:none;
+	float: left;
+
+}
+.button_menu li{
+	border:none;
+	display: block;
+	width: 256px;
+	line-height: 45px;
+	text-align: center;
+	font-size: 12px;
+	float: center;
+	margin: 0 auto;/*这里有没有什么方式不用负数使按钮栏紧贴左侧边框*/
+}
+
+.button_menu button{
+
+	border:none;
+	outline:none;
+	background-color:#343F51;
+	width: 100%;
+	line-height: 45px;
+}
+/*左侧按钮栏的样式*/
+
+.message_board{
+	border:1px solid black;
+	border-top: none;
+	width:700px;
+	height: auto;
+	float:right;
+}/*信息板*/
+.message_title{
+	text-align: center;
+	font-size: 30px;
+}/*文章标题*/
+.message_content{
+	text-align: center;
+	margin: 10px 20px;
+	font-size: 16px;
+}/*文章内容*/
+.next{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	float: right;
+	margin-bottom: 0;
+	margin-right: 20px;
+}/*上一篇*/
+.preview{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	margin-bottom: 0;
+	margin-left: 20px;
+}/*下一篇*/
+/*右侧信息栏的样式*/
+
+/*公告内容*/
+.content_1{
+	display:block;
+	font-size:20px;
+	font-family:宋体;
+}
+

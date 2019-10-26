@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+body {
+
+    background-image: url("../assets/101.png");;
+
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+
+}
+/* 使背景图片拉伸且占据整个屏幕*/
+ 
+
+#login_main {
+
+    width: 400px;
+
+    height: 250px;
+
+    padding: 15px;
+
+ 
+
+    position: absolute;
+
+    left: 50%;
+
+    top: 50%;
+
+    margin-left: -200px;
+
+    margin-top: -200px;
+
+ 
+
+    background-color: rgba(240, 255, 255, 0.5);/*添加背景颜色且添加透明效果：*/
+
+ 
+
+    border-radius: 10px;
+
+    text-align: center;
+
+}
+/*让一整个div块在整个屏幕居中*/
+ 
+
+form p > * {
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+}
+/*把输入框和label对齐居中*/
+ 
+
+#logo_image {
+	
+    text-align: center;
+	
+
+    margin-top: 22px;
+
+}
+/*SDNU的logo*/
+ 
+
+.label_input {
+
+    font-size: 14px;
+
+    font-family: 宋体;
+
+ 
+
+    width: 65px;
+
+    height: 28px;
+
+    line-height: 28px;
+
+    text-align: center;
+
+ 
+
+    color: white;
+
+    background-color: #3CD8FF;
+
+    border-top-left-radius: 5px;
+
+    border-bottom-left-radius: 5px;/*圆角美化*/
+
+}
+/*输入框的参数设置*/
+ 
+
+.text_field {
+
+    width: 278px;
+
+    height: 28px;
+
+    border-top-right-radius: 5px;
+
+    border-bottom-right-radius: 5px;
+
+    border: 0;
+
+}
+/*输入文本框的参数设置*/
+ 
+
+#btn_login {
+
+    font-size: 14px;
+
+    font-family: 宋体;
+
+ 
+
+    width: 120px;
+
+    height: 28px;
+
+    line-height: 28px;
+
+    text-align: center;/*给button里面的文字设置居中*/
+
+ 
+
+    color: white;
+
+    background-color: #3BD9FF;
+
+    border-radius: 6px;
+
+    border: 0;
+
+ 
+
+    float: left;
+
+}
+
+ 
+
+#forget {
+
+    font-size: 12px;
+
+    color: black;
+
+    text-decoration: none;
+
+    position: relative;
+
+    float: right;
+
+    top: 5px;
+
+ 
+
+}
+/*“忘记密码”的外观参数*/
+ 
+
+#forget:hover {
+
+    color: blue;
+
+    text-decoration: underline;/*去除链接的下划线*/
+
+}
+
+ 
+
+#login_control {
+
+    padding: 0 28px;
+
+}
+#login_chosen {
+	 
+	font-size: 12px;
+
+    font-family: 宋体;
+
+    width: 320px;
+
+    line-height: 28px;  
+}
+/*那几个目前没用的身份选择框的参数*/
