@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>修改密码</title>
+<link rel="stylesheet" type="text/css" href="css/login.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+<script type="text/javascript">
+	function judge(){
+		var newpw = document.getElementById('newpw').value;
+		var tnewpw = document.getElementById('tnewpw').value;
+		//alert(newpw + "   " + tnewpw);
+		if(newpw == tnewpw){
+			return true;
+		}
+		else{
+			alert("新密码与确认新密码中的数据不一致");
+			return false;
+		}
+	}
+</script>
+</head>
+<body>
+	<div class="row" style="margin-top:80px">
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+	<form method="post" action="AlterPassword" onsubmit="return judge()">
+  		<div class="form-group">
+    	<label for="exampleInputEmail1">账号</label>
+    	<input class="form-control" id="exampleInputEmail1" name="uname">
+  		</div>
+  	<div class="form-group">
+    	<label for="exampleInputPassword1">原密码</label>
+    	<input type="password" class="form-control" id="oldpw" name="oldpw">
+  	</div>
+  	<div class="form-group">
+    	<label for="exampleInputFile">新密码</label>
+    	<input type="password" class="form-control" id="newpw" name="newpw">
+  	</div>
+  	<div class="form-group">
+    	<label for="exampleInputFile">确认新密码</label>
+    	<input type="password" class="form-control" id="tnewpw" name="tnewpw">
+  	</div>
+  	<label class="radio-inline">
+  	<input type="radio" name="role" id="inlineRadio1" value="admin">管理员
+	</label>
+	<label class="radio-inline">
+  	<input type="radio" name="role" id="inlineRadio2" value="teacher">教师
+	</label>
+	<label class="radio-inline">
+  	<input type="radio" name="role" id="inlineRadio3" value="student">学生
+	</label>
+	<br/><br/>
+  	<button type="submit" class="btn btn-default">提交</button>
+	</form>
+	</div>
+	</div>
+	<div></div>
+</body>
+</html>
