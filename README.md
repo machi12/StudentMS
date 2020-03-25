@@ -9,9 +9,7 @@
 ### 配置
 
 clone该项目到本地后要进行下面操作：<br/>
-
 1.进入到如下路径：StudentMS/src/sms/conn，打开该路径下的Conn.java文件，该文件为数据库中包含了数据库连接的相关配置信息，需要根据本地环境修改常量url，name和pwd，其中url为mysql数据库的路径，name为登录名，pwd为登陆密码。<br/>
-
 2.在mysql数据库中导入项目根目录下的course_pick_sys.sql文件，该文件中包含该项目所有需要的数据。
 
 ### 最后
